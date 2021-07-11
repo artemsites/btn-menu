@@ -1,1 +1,0 @@
-<button class="btn-menu"><span class="btn-menu__decor"></span></button>
