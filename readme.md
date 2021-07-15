@@ -1,3 +1,3 @@
 ### Кнопка открытия меню на мобильных устройствах
 ### Button to open the menu on mobile devices
-### v1.0 
+### v1.0
