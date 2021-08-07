@@ -6,7 +6,7 @@ $line-width: 26.5px;
 $decor-color: #312565;
 $decor-line-height: 2px;
 @mixin decor-line-border-radius() {
-  border-radius: 1px;//disable for unset
+  border-radius: 1px;//commit for unset
 }
 
 .btn-menu {
