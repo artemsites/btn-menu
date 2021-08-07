@@ -1,3 +1,3 @@
-### Кнопка открытия меню на мобильных устройствах 
-### Button to open the menu on mobile devices 
-### v1.1 07.08.2021
+###### Кнопка открытия меню на мобильном: анимированная крестик-линии
+###### Menu open button on mobile: animated cross-lines
+###### v1.1 07.08.2021
