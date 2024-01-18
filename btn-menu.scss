@@ -1,0 +1,60 @@
+$c-base: black;
+$c-red: red;
+
+.btn-menu {
+  // display: none;
+
+  // @media screen and (max-width: 991.98px) {
+  // width: 3rem;
+  // height: 2.6rem;
+
+  display: inline-flex;
+  flex-direction: column;
+
+  padding: 0.6rem 0 0.6rem 0.6rem;
+  border-radius: 0.6rem;
+  border: none;
+  background-color: transparent;
+  color: $c-base;
+  cursor: pointer;
+
+  margin-left: 1rem;
+
+  span {
+    height: 0.2rem;
+    width: 1.8rem;
+
+    flex-shrink: 0;
+
+    background-color: $c-base;
+    transition: transform .5s, opacity .25s;
+
+    &:not(:last-child) {
+      margin-bottom: 0.4rem;
+    }
+  }
+
+  &._opened span {
+    &:nth-child(1) {
+      transform: translateY(0.6rem) rotate(45deg);
+      transform-origin: center;
+    }
+
+    &:nth-child(2) {
+      opacity: 0;
+    }
+
+    &:nth-child(3) {
+      transform: translateY(-0.6rem) rotate(-45deg);
+      transform-origin: center;
+    }
+  }
+
+
+  &:hover {
+    background-color: transparent;
+    color: $c-red;
+  }
+
+  // }
+}
